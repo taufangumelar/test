@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -14,7 +14,7 @@
   "version": "independent",
   "scripts": {
     "build": "lerna run build",
-    "publish-all": "npx lerna publish"
+    "publish-all": "lerna publish"
   },
   "publishConfig": {
     "registry": "https://indikaenergygroup.pkgs.visualstudio.com/XTITooling/_packaging/xtyle-mobile/npm/registry/"
