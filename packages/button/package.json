@@ -1,6 +1,6 @@
 {
   "name": "@xtyle-mobile/button",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -16,5 +16,5 @@
   "publishConfig": {
     "registry": "https://indikaenergygroup.pkgs.visualstudio.com/XTITooling/_packaging/xtyle-mobile/npm/registry/"
   },
-  "gitHead": "03658d701115169adc83f7c7f753ee21987b3211"
+  "gitHead": "39e9b7be3f0db1fdb3ef75dc917711cc9c75725a"
 }
