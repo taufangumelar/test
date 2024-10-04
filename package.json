@@ -14,7 +14,7 @@
   "version": "independent",
   "scripts": {
     "build": "lerna run build",
-    "publish-all": "lerna publish"
+    "publish-all": "lerna publish --no-private --loglevel verbose"
   },
   "publishConfig": {
     "registry": "https://indikaenergygroup.pkgs.visualstudio.com/XTITooling/_packaging/xtyle-mobile/npm/registry/"
