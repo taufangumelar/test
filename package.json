@@ -15,5 +15,8 @@
   "scripts": {
     "build": "lerna run build",
     "publish-all": "npx lerna publish"
+  },
+  "publishConfig": {
+    "registry": "https://indikaenergygroup.pkgs.visualstudio.com/XTITooling/_packaging/xtyle-mobile/npm/registry/"
   }
 }
