@@ -1,0 +1,19 @@
+{
+  "name": "@xtyle-mobile/text",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-native": "^0.75.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11"
+  },
+  "publishConfig": {
+    "registry": "https://indikaenergygroup.pkgs.visualstudio.com/XTITooling/_packaging/xtyle-mobile/npm/registry/"
+  }
+}
